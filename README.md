@@ -5,8 +5,10 @@ I whipped up a little PCB to rapidly turn on/off any simple battery-powered circ
 
 ## To Do:
 - Post bill of materials
-- Add pictures to Readme!
-- Swap out ATTiny13 for ATTiny10, along with dedicated ISP pads
+- Write assembly instructions
+- Add pictures
+- Make the traces thicker between negative battery and negative battery terminal
+- Swap out ATTiny13 for ATTiny10, add dedicated ISP pads
 - Post sample AVR code (this may not happen till I figure out sleep mode on the ATTiny)
 - Add OSHW certification mark
 - Figure out a way to get rid of the DC-DC step-up stage entirely
