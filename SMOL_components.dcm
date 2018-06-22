@@ -1,0 +1,58 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY10-TS
+D SOT-23-6, 1k Flash, 32B SRAM, No EEPROM, ADC
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/images/atmel-8127-avr-8-bit-microcontroller-attiny4-attiny5-attiny9-attiny10_datasheet-summary.pdf
+$ENDCMP
+#
+$CMP ATTINY13-20SSU
+D SO8, 1k Flash, 64B SRAM, 64B EEPROM, Debug Wire
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/Images/doc2535.pdf
+$ENDCMP
+#
+$CMP ATTINY13-20SU
+D SO8 Wide, 1k Flash, 64B SRAM, 64B EEPROM, Debug Wire
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/Images/doc2535.pdf
+$ENDCMP
+#
+$CMP ATTINY13A-SSU
+D SO8, 1k Flash, 64B SRAM, 64B EEPROM, Debug Wire
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/Images/doc8126.pdf
+$ENDCMP
+#
+$CMP ATTINY13A-SU
+D SO8 Wide, 1k Flash, 64B SRAM, 64B EEPROM, Debug Wire
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/Images/doc8126.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP TLV61220
+D Low-Input Voltage Step-Up Converter
+F http://www.ti.com/lit/ds/symlink/tlv61220.pdf
+$ENDCMP
+#
+#End Doc Library
