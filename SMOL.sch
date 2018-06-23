@@ -150,9 +150,7 @@ Wire Notes Line
 Wire Notes Line
 	1525 3600 1625 3700
 Wire Notes Line
-	1625 3700 1700 3600
-Wire Notes Line
-	1700 3600 1700 3775
+	1725 3600 1725 3775
 Wire Notes Line
 	2675 3700 2200 3700
 Wire Wire Line
@@ -280,4 +278,6 @@ Text Notes 6350 3050 0    60   ~ 0
 U2: Microcontroller putting out digital\nor analog (PWM) signals on pin 6
 Text Notes 8550 3050 0    60   ~ 0
 Q1: Current only flows when\npin 6 on U2 is set to HIGH
+Wire Notes Line
+	1625 3700 1725 3600
 $EndSCHEMATC
