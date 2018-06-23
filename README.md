@@ -3,9 +3,27 @@
 
 I whipped up a little PCB to rapidly turn on/off any simple battery-powered circuits. An Atmel ATTiny drives an N-channel MOSFET, which selectively breaks or completes the circuit. To be perfectly frank, I designed it to change the output of a cheap vibrator (and GOSH, it works).
 
+## Bill of Materials
+| Designation | Description | My Source | My Cost (USD) | Notes |
+|:-----------:|-------------|-----------|---------------|-------|
+| R1 | 1 MΩ resistor, SMD 0603   | [Digikey](https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1004FP500/MCT0603-1.00M-CFCT-ND/2607877) | $0.180 | |
+| R2 | 180 kΩ resistor, SMD 0603 | [Digikey](https://www.digikey.com/product-detail/en/yageo/RC0603FR-07180KL/311-180KHRCT-ND/729942) | $0.015 |  |
+| R3 | 1 kΩ resistor, SMD 0603   | [Digikey](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071) | $0.100 | Not sure how necessary this is. I may make this a pull-down resistor. |
+| C1, C2 | 10 μF capacitor, SMD 0603 | [Digikey](https://www.digikey.com/product-detail/en/murata-electronics-north-america/ZRB18AR61C106ME01L/490-10990-1-ND/5321191) | $0.365 | |
+| L1 | 4.7 μH inductor, SMD 0603 | [Digikey](https://www.digikey.com/product-detail/en/tdk-corporation/MLF1608A4R7KTA00/445-1021-1-ND/504419) | $0.200 | I should probably use one that's rated to more than 30 mA. |
+| Q1 | N-channel MOSFET, SMD SOT-523 | [Digikey](https://www.digikey.com/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232) | $0.360 | [Datasheet](https://www.diodes.com/assets/Datasheets/ds31783.pdf) |
+| U1 | TLV61220 DC-DC boost converter, SMD SOT-23-6 | [Digikey](https://www.digikey.com/product-detail/en/texas-instruments/TLV61220DBVR/296-30547-1-ND/3458120) | $0.900 | [Datasheet](http://www.ti.com/lit/ds/symlink/tlv61220.pdf) |
+| U2 | ATTiny13 8-bit microcontroller, SMD SOIC-8 Narrow | [Digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY13A-SSUR/ATTINY13A-SSURCT-ND/3789485) | $0.590 | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/8126S.pdf). I plan to change this to the SOT-23-6 ATTiny10. |
+| | Printed circuit board | Osh Park | $1.400 | See the /gerbs/ folder |
+| | Approx. 6 cm of 30ish gauge wire | Anywhere | $0.000 | Solder to TP1 and attach the other end to the battery's positive terminal |
+| | Approx. 1 cm of stiff wire | Anywhere | $0.000 | Solder to TP2 and bend so the battery's negative terminal rests on it but doesn't short any traces |
+
+## Contact info:
+Twitter @heyspacebuck
+Telegram @spacebuck
+
 ## To Do:
-- Post bill of materials
-- Write assembly instructions
+- Write better assembly instructions
 - Add pictures
 - Make the traces thicker between negative battery and negative battery terminal
 - Swap out ATTiny13 for ATTiny10, add dedicated ISP pads
