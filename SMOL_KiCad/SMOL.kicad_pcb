@@ -3,7 +3,7 @@
   (general
     (links 19)
     (no_connects 0)
-    (area 95.199199 94.449683 108.007994 108.750317)
+    (area 80.935962 94.449683 108.007994 109.042201)
     (thickness 1.6)
     (drawings 4)
     (tracks 87)
@@ -59,7 +59,7 @@
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
-      (linewidth 0.300000)
+      (linewidth 0.304800)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
