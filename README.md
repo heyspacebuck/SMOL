@@ -1,7 +1,19 @@
 # SMOL
 ## **S**lot-in **M**anipulator of **O**utput **L**evels
 
-I whipped up a little PCB to rapidly turn on/off any simple battery-powered circuits. An Atmel ATTiny drives an N-channel MOSFET, which selectively breaks or completes the circuit. To be perfectly frank, I designed it to change the output of a cheap vibrator (and GOSH, it works).
+I whipped up a little PCB to rapidly turn on/off any simple battery-powered circuits. An Atmel ATTiny drives an N-channel MOSFET, which selectively breaks or completes the circuit. To be perfectly frank, I designed it to pulse the output of a cheap vibrator (and GOSH, it works).
+
+I want this to be super-simple to install in a battery-powered circuit. Just slot the board between the negative end of the battery and the spring contact, and run a single wire up to the positive battery terminal.
+
+If you want to contribute, please do! This thing is here for everyone to experiment with! The circuit is designed in KiCad, just clone/download it and open the project. The project includes self-contained parts and footprints libraries, so it *should* work on any KiCad installation.
+
+![](img/old-way.jpg)
+
+![](img/breadboard.jpg)
+
+![](img/wrl-spin.gif)
+
+![](img/so-so-smol.jpg)
 
 ## Bill of Materials
 | Designation | Description | My Source | My Cost (USD) | Notes |
@@ -14,13 +26,15 @@ I whipped up a little PCB to rapidly turn on/off any simple battery-powered circ
 | Q1 | N-channel MOSFET, SMD SOT-523 | [Digikey](https://www.digikey.com/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232) | $0.360 | [Datasheet](https://www.diodes.com/assets/Datasheets/ds31783.pdf) |
 | U1 | TLV61220 DC-DC boost converter, SMD SOT-23-6 | [Digikey](https://www.digikey.com/product-detail/en/texas-instruments/TLV61220DBVR/296-30547-1-ND/3458120) | $0.900 | [Datasheet](http://www.ti.com/lit/ds/symlink/tlv61220.pdf) |
 | U2 | ATTiny13 8-bit microcontroller, SMD SOIC-8 Narrow | [Digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY13A-SSUR/ATTINY13A-SSURCT-ND/3789485) | $0.590 | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/8126S.pdf). I plan to change this to the SOT-23-6 ATTiny10. |
-| | Printed circuit board | Osh Park | $1.400 | See the /gerbs/ folder |
+| | Printed circuit board | Osh Park | $0.467 | See the /gerbs/ folder |
 | | Approx. 6 cm of 30ish gauge wire | Anywhere | $0.000 | Solder to TP1 and attach the other end to the battery's positive terminal |
 | | Approx. 1 cm of stiff wire | Anywhere | $0.000 | Solder to TP2 and bend so the battery's negative terminal rests on it but doesn't short any traces |
 
+TOTAL COST PER BOARD: $3.542
+
 ## Contact info:
-Twitter @heyspacebuck
-Telegram @spacebuck
+- Twitter @heyspacebuck
+- Telegram @spacebuck
 
 ## To Do:
 - Write better assembly instructions
@@ -29,4 +43,4 @@ Telegram @spacebuck
 - Swap out ATTiny13 for ATTiny10, add dedicated ISP pads
 - Post sample AVR code (this may not happen till I figure out sleep mode on the ATTiny)
 - Add OSHW certification mark
-- Figure out a way to get rid of the DC-DC step-up stage entirely
+- Figure out a way to get rid of the DC-DC step-up stage entirely?
