@@ -19,10 +19,6 @@ Originally I used a stiff wire to snake up to the positive terminal, and added m
 
 The latest board revision! The big copper pad on the back is what contacts the external circuit's spring terminal.
 
-![](img/so-so-smol.jpg)
-
-IT'S SO SMOL
-
 ## Bill of Materials
 | Designation | Description | My Source | My Cost (USD) | Notes |
 |:-----------:|-------------|-----------|---------------|-------|
@@ -52,3 +48,9 @@ TOTAL COST PER BOARD: $3.542
 - Post sample AVR code (this may not happen till I figure out sleep mode on the ATTiny)
 - Add OSHW certification mark
 - Figure out a way to get rid of the DC-DC step-up stage entirely?
+
+------
+
+![](img/so-so-smol.jpg)
+
+IT'S SO SMOL
