@@ -1,7 +1,7 @@
 # SMOL
 ## **S**lot-in **M**anipulator of **O**utput **L**evels
 
-I whipped up a little PCB to rapidly turn on/off any simple battery-powered circuits. An Atmel ATTiny drives an N-channel MOSFET, which selectively breaks or completes the circuit. To be perfectly frank, I designed it to pulse the output of a cheap vibrator (and GOSH, it works).
+I whipped up a little PCB to rapidly turn on/off any simple battery-powered circuits. An Atmel ATTiny drives an N-channel MOSFET, which selectively breaks or completes the circuit.
 
 I want this to be super-simple to install in a battery-powered circuit. Just slot the board between the negative end of the battery and the spring contact, and run a single wire up to the positive battery terminal.
 
