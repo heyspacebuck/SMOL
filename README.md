@@ -7,13 +7,21 @@ I want this to be super-simple to install in a battery-powered circuit. Just slo
 
 If you want to contribute, please do! This thing is here for everyone to experiment with! The circuit is designed in KiCad, just clone/download it and open the project. The project includes self-contained parts and footprints libraries, so it *should* work on any KiCad installation.
 
+![](img/breadboard.jpg)
+
+Here's an older revision, but it shows generally what the PCB looks like.
+
 ![](img/old-way.jpg)
 
-![](img/breadboard.jpg)
+Originally I used a stiff wire to snake up to the positive terminal, and added my own spring for the battery to rest on. The yellow tape is Kapton (polyimide) tape, to insulate the components from the big bare metal pieces hovering above them.
 
 ![](img/wrl-spin.gif)
 
+The latest board revision! The big copper pad on the back is what contacts the external circuit's spring terminal.
+
 ![](img/so-so-smol.jpg)
+
+IT'S SO SMOL
 
 ## Bill of Materials
 | Designation | Description | My Source | My Cost (USD) | Notes |
