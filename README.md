@@ -19,6 +19,9 @@ Originally I used a stiff wire to snake up to the positive terminal, and added m
 
 The latest board revision! The big copper pad on the back is what contacts the external circuit's spring terminal.
 
+## Schematic
+![](img/schem.png)
+
 ## Bill of Materials
 | Designation | Description | My Source | My Cost (USD) | Notes |
 |:-----------:|-------------|-----------|---------------|-------|
