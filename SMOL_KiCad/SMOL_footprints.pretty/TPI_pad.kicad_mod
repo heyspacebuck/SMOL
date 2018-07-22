@@ -1,0 +1,9 @@
+(module TPI_pad (layer F.Cu) (tedit 5B53E2DE)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TPI_pad (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd oval (at 0 0) (size 1.016 0.762) (layers F.Cu F.Paste F.Mask))
+)
