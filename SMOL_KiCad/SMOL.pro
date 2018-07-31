@@ -30,4 +30,3 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=SMOL_components
-LibName2=conn
