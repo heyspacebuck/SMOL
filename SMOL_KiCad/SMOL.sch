@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:SMOL_components
+LIBS:conn
 LIBS:SMOL-cache
 EELAYER 25 0
 EELAYER END
@@ -163,7 +164,7 @@ External to the SMOL circuit: the AA cell being\nmanipulated and the load (shown
 Text Notes 3550 2950 0    60   ~ 0
 U1: Step-up IC to provide the voltage\nneeded for powering microcontroller U2
 Text Notes 6200 2950 0    60   ~ 0
-U2: Microcontroller putting out digital\nor analog (PWM) signals on pin 4\n(actually, I screwed up; if you want\nPWM, you need to disconnect Pin\n4 and connect Pin 3 instead)
+U2: Microcontroller putting out digital\nor analog (PWM) signals on pin 3
 Text Notes 9000 2950 0    60   ~ 0
 Q1: Current only flows when\noutput of U2 is set to HIGH
 $Comp
@@ -281,8 +282,40 @@ Wire Wire Line
 Connection ~ 9800 4000
 Wire Wire Line
 	9500 3700 9150 3700
+Text Label 6350 4200 0    60   ~ 0
+Cathode
+Text Label 5750 4200 2    60   ~ 0
+Spring_Contact
 Wire Wire Line
-	8700 3500 9150 3500
+	5750 4200 5875 4200
 Wire Wire Line
-	9150 3500 9150 3700
+	6175 4200 6350 4200
+Text Notes 5525 4425 0    60   ~ 0
+Flyback diode (optional)
+$Comp
+L D_SOT523 D1
+U 1 1 5B5FEE9D
+P 6025 4200
+F 0 "D1" H 6025 4300 50  0000 C CNN
+F 1 "D_SOT523" H 6025 4100 50  0000 C CNN
+F 2 "SMOL_footprints:SOT523_HandSoldering" H 6025 4200 50  0001 C CNN
+F 3 "" H 6025 4200 50  0001 C CNN
+	1    6025 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GS2 J1
+U 1 1 5B5FF17B
+P 8950 3600
+F 0 "J1" V 8850 3600 50  0000 C CNN
+F 1 "Bridge" V 9025 3600 50  0000 C CNN
+F 2 "SMOL_footprints:0603_Jumper" V 9024 3600 50  0001 C CNN
+F 3 "" H 8950 3600 50  0001 C CNN
+	1    8950 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 3600 8750 3600
+Wire Wire Line
+	9150 3700 9150 3600
 $EndSCHEMATC
