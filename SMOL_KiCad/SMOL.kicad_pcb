@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
-    (links 27)
-    (no_connects 0)
-    (area 80.935962 93.1164 109.905801 110.185201)
     (thickness 1.6)
     (drawings 4)
     (tracks 115)
@@ -54,10 +51,13 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.1524)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFF7F7F)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.304800)
       (plotframeref false)
@@ -66,8 +66,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -79,7 +78,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbs/))
+      (outputdirectory "../gerbs/"))
   )
 
   (net 0 "")
@@ -141,7 +140,7 @@
     (tags "resistor 0603")
     (path /5B2BEA9B)
     (attr smd)
-    (fp_text reference C1 (at 0.0254 -0.0508 540) (layer F.SilkS)
+    (fp_text reference C1 (at 0.0254 -0.0508 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value 10μF (at 0.127 0 270) (layer F.SilkS) hide
@@ -240,9 +239,9 @@
     (fp_line (start -1.96 -0.7) (end -1.96 0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.95 0.7) (end 1.95 -0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.95 0.7) (end -1.96 0.7) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -1.1 0 45) (size 1.2 0.9) (layers F.Cu F.Mask)
+    (pad 1 smd rect (at -1.099999 0 45) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 3 /μC_Vcc))
-    (pad 2 smd rect (at 1.1 0 45) (size 1.2 0.9) (layers F.Cu F.Mask)
+    (pad 2 smd rect (at 1.099999 0 45) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 6 "Net-(R1-Pad2)"))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
       (at (xyz 0 0 0))
@@ -257,7 +256,7 @@
     (tags "resistor 0603")
     (path /5B2C0040)
     (attr smd)
-    (fp_text reference R2 (at 0.1016 0 380) (layer F.SilkS)
+    (fp_text reference R2 (at 0.1016 0 20) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value 180kΩ (at 0.254 0 290) (layer F.SilkS) hide
@@ -531,10 +530,10 @@
   (module SMOL_footprints:credits (layer B.Cu) (tedit 5B2C85AD) (tstamp 5B53E753)
     (at 101.6 101.6 90)
     (fp_text reference G*** (at 0 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_text value credits (at 0.75 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 4.18082 -4.081905) (xy 4.225588 -4.110053) (xy 4.292755 -4.162573) (xy 4.371999 -4.230099)
       (xy 4.452995 -4.303266) (xy 4.52542 -4.372708) (xy 4.57895 -4.429058) (xy 4.603261 -4.462951)

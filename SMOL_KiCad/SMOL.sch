@@ -223,10 +223,6 @@ Wire Notes Line
 Wire Wire Line
 	5250 3200 5250 3400
 Wire Wire Line
-	4700 3500 4900 3500
-Wire Wire Line
-	4900 3500 4900 3600
-Wire Wire Line
 	5250 3900 5250 3700
 Wire Wire Line
 	3350 3900 3550 3900
@@ -250,15 +246,11 @@ Connection ~ 3550 3300
 Connection ~ 3900 3300
 Wire Wire Line
 	3550 3750 3550 3900
-Connection ~ 3900 3900
 Connection ~ 3550 3900
-Connection ~ 5250 3200
 Wire Wire Line
 	6100 3800 6300 3800
 Wire Wire Line
 	6300 3300 6100 3300
-Wire Wire Line
-	9800 4150 9800 4000
 Wire Notes Line
 	2525 3900 1475 3900
 Wire Notes Line
@@ -271,11 +263,6 @@ Wire Wire Line
 	9800 3500 9800 3200
 Wire Notes Line
 	1475 3600 1575 3500
-Wire Wire Line
-	9150 4000 9800 4000
-Connection ~ 9800 4000
-Wire Wire Line
-	9500 3700 9150 3700
 Text Label 6350 4200 0    60   ~ 0
 Cathode
 Text Label 5750 4200 2    60   ~ 0
@@ -287,7 +274,7 @@ Wire Wire Line
 Text Notes 5525 4425 0    60   ~ 0
 Flyback diode (optional)
 $Comp
-L SMOL_components:D_ALT D1
+L SMOL_components:D_SOT523 D1
 U 1 1 5B5FEE9D
 P 6025 4200
 F 0 "D1" H 6025 4300 50  0000 C CNN
@@ -309,8 +296,6 @@ F 3 "" H 8950 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9150 3700 9150 3600
-Wire Wire Line
 	3550 3300 3900 3300
 Wire Wire Line
 	3550 3300 3550 3450
@@ -321,11 +306,34 @@ Wire Wire Line
 Wire Wire Line
 	5250 3200 5400 3200
 Wire Wire Line
-	9800 4000 9800 3900
-Wire Wire Line
-	4700 3200 5250 3200
-Wire Wire Line
-	3900 3900 5250 3900
-Wire Wire Line
 	8700 3600 8750 3600
+Wire Wire Line
+	4700 3200 4900 3200
+Wire Wire Line
+	4900 3200 5250 3200
+Connection ~ 4900 3200
+Connection ~ 5250 3200
+Wire Wire Line
+	4900 3600 4900 3500
+Wire Wire Line
+	4700 3500 4900 3500
+Connection ~ 4900 3500
+Wire Wire Line
+	5250 3900 4900 3900
+Wire Wire Line
+	4900 3900 3900 3900
+Connection ~ 4900 3900
+Connection ~ 3900 3900
+Wire Wire Line
+	9800 3900 9800 4000
+Wire Wire Line
+	9150 4000 9800 4000
+Connection ~ 9800 4000
+Wire Wire Line
+	9800 4000 9800 4150
+Wire Wire Line
+	9150 3700 9500 3700
+Wire Wire Line
+	9150 3700 9150 3600
+Connection ~ 9150 3700
 $EndSCHEMATC
