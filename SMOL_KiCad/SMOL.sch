@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:SMOL_components
-LIBS:conn
+EESchema Schematic File Version 4
 LIBS:SMOL-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TEST TP1
+L SMOL_components:TEST TP1
 U 1 1 5B2BF76C
 P 2525 3300
 F 0 "TP1" V 2550 3575 50  0000 C BNN
@@ -28,7 +26,7 @@ F 3 "" H 2525 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP2
+L SMOL_components:TEST TP2
 U 1 1 5B2BF7A7
 P 2525 3600
 F 0 "TP2" V 2550 3875 50  0000 C BNN
@@ -39,7 +37,7 @@ F 3 "" H 2525 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP3
+L SMOL_components:TEST TP3
 U 1 1 5B2BF84D
 P 2525 3900
 F 0 "TP3" V 2550 4175 50  0000 C BNN
@@ -56,7 +54,7 @@ Anode
 Text Label 2525 3900 2    60   ~ 0
 Spring_Contact
 $Comp
-L TLV61220 U1
+L SMOL_components:TLV61220 U1
 U 1 1 5B2BFF7F
 P 4350 3350
 F 0 "U1" H 4350 3650 60  0000 C CNN
@@ -67,7 +65,7 @@ F 3 "" H 4350 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L SMOL_components:R R1
 U 1 1 5B2BFFFE
 P 4900 3350
 F 0 "R1" V 4850 3250 50  0000 C CNN
@@ -78,7 +76,7 @@ F 3 "" V 4900 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L SMOL_components:R R2
 U 1 1 5B2C0040
 P 4900 3750
 F 0 "R2" V 4850 3650 50  0000 C CNN
@@ -89,7 +87,7 @@ F 3 "" V 4900 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L SMOL_components:C C2
 U 1 1 5B2BE384
 P 5250 3550
 F 0 "C2" H 5275 3650 50  0000 L CNN
@@ -100,7 +98,7 @@ F 3 "" H 5250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L SMOL_components:L L1
 U 1 1 5B2BE76A
 P 3750 3200
 F 0 "L1" V 3700 3200 50  0000 C CNN
@@ -111,7 +109,7 @@ F 3 "" H 3750 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L SMOL_components:C C1
 U 1 1 5B2BEA9B
 P 3550 3600
 F 0 "C1" H 3575 3700 50  0000 L CNN
@@ -132,7 +130,7 @@ Anode
 Text Label 6100 3800 2    60   ~ 0
 μC_Vcc
 $Comp
-L R R3
+L SMOL_components:R R3
 U 1 1 5B2C0101
 P 9150 3850
 F 0 "R3" V 9150 3950 50  0000 C CNN
@@ -143,7 +141,7 @@ F 3 "" V 9150 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Q_NMOS_GSD Q1
+L SMOL_components:Q_NMOS_GSD Q1
 U 1 1 5B2C022D
 P 9700 3700
 F 0 "Q1" H 9900 3750 50  0000 L CNN
@@ -168,7 +166,7 @@ U2: Microcontroller putting out digital\nor analog (PWM) signals on pin 3
 Text Notes 9000 2950 0    60   ~ 0
 Q1: Current only flows when\noutput of U2 is set to HIGH
 $Comp
-L ATTINY10-TS U2
+L SMOL_components:ATTINY10-TS U2
 U 1 1 5B396FDE
 P 7500 3550
 F 0 "U2" H 6500 3950 50  0000 C CNN
@@ -223,10 +221,7 @@ Wire Notes Line
 Wire Notes Line
 	2525 3600 2050 3600
 Wire Wire Line
-	4700 3200 5400 3200
-Wire Wire Line
 	5250 3200 5250 3400
-Connection ~ 4900 3200
 Wire Wire Line
 	4700 3500 4900 3500
 Wire Wire Line
@@ -234,24 +229,23 @@ Wire Wire Line
 Wire Wire Line
 	5250 3900 5250 3700
 Wire Wire Line
-	3350 3900 5250 3900
+	3350 3900 3550 3900
 Wire Wire Line
 	3900 3900 3900 3500
 Wire Wire Line
 	3900 3500 4000 3500
-Connection ~ 4900 3900
 Wire Wire Line
 	4000 3400 3900 3400
 Wire Wire Line
 	3900 3400 3900 3300
 Wire Wire Line
-	3350 3300 4000 3300
+	3350 3300 3550 3300
 Wire Wire Line
 	4000 3200 3900 3200
 Wire Wire Line
 	3600 3200 3550 3200
 Wire Wire Line
-	3550 3200 3550 3450
+	3550 3200 3550 3300
 Connection ~ 3550 3300
 Connection ~ 3900 3300
 Wire Wire Line
@@ -264,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3300 6100 3300
 Wire Wire Line
-	9800 4150 9800 3900
+	9800 4150 9800 4000
 Wire Notes Line
 	2525 3900 1475 3900
 Wire Notes Line
@@ -293,7 +287,7 @@ Wire Wire Line
 Text Notes 5525 4425 0    60   ~ 0
 Flyback diode (optional)
 $Comp
-L D_SOT523 D1
+L SMOL_components:D_ALT D1
 U 1 1 5B5FEE9D
 P 6025 4200
 F 0 "D1" H 6025 4300 50  0000 C CNN
@@ -304,7 +298,7 @@ F 3 "" H 6025 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GS2 J1
+L SMOL_components:GS2 J1
 U 1 1 5B5FF17B
 P 8950 3600
 F 0 "J1" V 8850 3600 50  0000 C CNN
@@ -315,7 +309,23 @@ F 3 "" H 8950 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8700 3600 8750 3600
-Wire Wire Line
 	9150 3700 9150 3600
+Wire Wire Line
+	3550 3300 3900 3300
+Wire Wire Line
+	3550 3300 3550 3450
+Wire Wire Line
+	3900 3300 4000 3300
+Wire Wire Line
+	3550 3900 3900 3900
+Wire Wire Line
+	5250 3200 5400 3200
+Wire Wire Line
+	9800 4000 9800 3900
+Wire Wire Line
+	4700 3200 5250 3200
+Wire Wire Line
+	3900 3900 5250 3900
+Wire Wire Line
+	8700 3600 8750 3600
 $EndSCHEMATC

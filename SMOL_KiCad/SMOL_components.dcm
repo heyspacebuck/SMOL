@@ -40,11 +40,6 @@ D Diode, alternativ symbol
 K diode
 $ENDCMP
 #
-$CMP D_SOT523
-D Diode, alternativ symbol
-K diode
-$ENDCMP
-#
 $CMP GS2
 D 2-pin jumper/solder bridge
 K jumper solder bridge

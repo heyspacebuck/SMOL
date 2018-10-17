@@ -1,4 +1,4 @@
-update=Date
+update=10/16/2018 10:14:00 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,5 +28,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=SMOL_components
