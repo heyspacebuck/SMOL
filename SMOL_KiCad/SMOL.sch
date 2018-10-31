@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SMOL-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -248,9 +247,9 @@ Wire Wire Line
 	3550 3750 3550 3900
 Connection ~ 3550 3900
 Wire Wire Line
-	6100 3800 6200 3800
+	6100 3800 6300 3800
 Wire Wire Line
-	6300 3300 6200 3300
+	6300 3300 6100 3300
 Wire Notes Line
 	2525 3900 1475 3900
 Wire Notes Line
@@ -323,70 +322,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 3700 9150 3600
 Connection ~ 9150 3700
-$Comp
-L SMOL_components:TEST TP4
-U 1 1 5BC81F91
-P 6200 3300
-F 0 "TP4" V 6225 3575 50  0000 C BNN
-F 1 "TEST" V 6275 3850 50  0001 C CNN
-F 2 "SMOL_footprints:Measurement_Point_Round-SMD-Pad_Small" H 6200 3300 50  0001 C CNN
-F 3 "" H 6200 3300 50  0001 C CNN
-	1    6200 3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 6200 3300
 Wire Wire Line
-	6200 3300 6100 3300
-$Comp
-L SMOL_components:TEST TP5
-U 1 1 5BC82128
-P 6200 3800
-F 0 "TP5" V 6225 4075 50  0000 C BNN
-F 1 "TEST" V 6275 4350 50  0001 C CNN
-F 2 "SMOL_footprints:Measurement_Point_Round-SMD-Pad_Small" H 6200 3800 50  0001 C CNN
-F 3 "" H 6200 3800 50  0001 C CNN
-	1    6200 3800
-	1    0    0    -1  
-$EndComp
-Connection ~ 6200 3800
-Wire Wire Line
-	6200 3800 6300 3800
-Wire Wire Line
-	8700 3600 8925 3600
-$Comp
-L SMOL_components:TEST TP7
-U 1 1 5BC82E31
-P 8700 3700
-F 0 "TP7" V 8725 3975 50  0000 C BNN
-F 1 "TEST" V 8775 4250 50  0001 C CNN
-F 2 "SMOL_footprints:Measurement_Point_Round-SMD-Pad_Small" H 8700 3700 50  0001 C CNN
-F 3 "" H 8700 3700 50  0001 C CNN
-	1    8700 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L SMOL_components:TEST TP8
-U 1 1 5BC82F39
-P 8925 3600
-F 0 "TP8" V 8950 3875 50  0000 C BNN
-F 1 "TEST" V 9000 4150 50  0001 C CNN
-F 2 "SMOL_footprints:Measurement_Point_Round-SMD-Pad_Small" H 8925 3600 50  0001 C CNN
-F 3 "" H 8925 3600 50  0001 C CNN
-	1    8925 3600
-	1    0    0    -1  
-$EndComp
-Connection ~ 8925 3600
-Wire Wire Line
-	8925 3600 9150 3600
-$Comp
-L SMOL_components:TEST TP6
-U 1 1 5BC82FD5
-P 8700 3400
-F 0 "TP6" V 8725 3675 50  0000 C BNN
-F 1 "TEST" V 8775 3950 50  0001 C CNN
-F 2 "SMOL_footprints:Measurement_Point_Round-SMD-Pad_Small" H 8700 3400 50  0001 C CNN
-F 3 "" H 8700 3400 50  0001 C CNN
-	1    8700 3400
-	1    0    0    -1  
-$EndComp
+	8700 3600 9150 3600
 $EndSCHEMATC
