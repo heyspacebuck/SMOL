@@ -259,26 +259,18 @@ Wire Wire Line
 	9800 3500 9800 3200
 Wire Notes Line
 	1475 3600 1575 3500
-Text Label 6350 4350 0    60   ~ 0
-Cathode
-Text Label 5750 4350 2    60   ~ 0
-Spring_Contact
-Wire Wire Line
-	5750 4350 5875 4350
-Wire Wire Line
-	6175 4350 6350 4350
-Text Notes 5525 4575 0    60   ~ 0
+Text Notes 825  4100 1    60   ~ 0
 Flyback diode (optional)
 $Comp
 L SMOL_components:D_SOT523 D1
 U 1 1 5B5FEE9D
-P 6025 4350
-F 0 "D1" H 6025 4450 50  0000 C CNN
-F 1 "D_SOT523" H 6025 4250 50  0000 C CNN
-F 2 "SMOL_footprints:SOT523_HandSoldering" H 6025 4350 50  0001 C CNN
-F 3 "" H 6025 4350 50  0001 C CNN
-	1    6025 4350
-	-1   0    0    1   
+P 1075 3600
+F 0 "D1" H 1075 3700 50  0000 C CNN
+F 1 "D_SOT523" H 1075 3500 50  0000 C CNN
+F 2 "SMOL_footprints:SOT523_HandSoldering" H 1075 3600 50  0001 C CNN
+F 3 "" H 1075 3600 50  0001 C CNN
+	1    1075 3600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3550 3300 3900 3300
@@ -379,4 +371,12 @@ Wire Wire Line
 	7950 4150 8850 4150
 Wire Wire Line
 	8850 3600 8850 4150
+Wire Wire Line
+	2525 3300 1075 3300
+Wire Wire Line
+	1075 3300 1075 3450
+Wire Wire Line
+	2525 3900 1075 3900
+Wire Wire Line
+	1075 3900 1075 3750
 $EndSCHEMATC
