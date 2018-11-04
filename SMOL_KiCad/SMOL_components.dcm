@@ -35,6 +35,11 @@ D Unpolarized capacitor
 K cap capacitor
 $ENDCMP
 #
+$CMP Conn_01x05
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_01x06
 D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SMOL_components)(type Legacy)(uri {KIPRJMOD}/../SMOL_KiCad/SMOL_components.lib)(options "")(descr ""))
+)

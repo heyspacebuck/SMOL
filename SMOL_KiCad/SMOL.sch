@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SMOL-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -246,10 +247,6 @@ Connection ~ 3900 3300
 Wire Wire Line
 	3550 3750 3550 3900
 Connection ~ 3550 3900
-Wire Wire Line
-	6100 3800 6300 3800
-Wire Wire Line
-	6300 3300 6100 3300
 Wire Notes Line
 	2525 3900 1475 3900
 Wire Notes Line
@@ -262,25 +259,25 @@ Wire Wire Line
 	9800 3500 9800 3200
 Wire Notes Line
 	1475 3600 1575 3500
-Text Label 6350 4200 0    60   ~ 0
+Text Label 6350 4350 0    60   ~ 0
 Cathode
-Text Label 5750 4200 2    60   ~ 0
+Text Label 5750 4350 2    60   ~ 0
 Spring_Contact
 Wire Wire Line
-	5750 4200 5875 4200
+	5750 4350 5875 4350
 Wire Wire Line
-	6175 4200 6350 4200
-Text Notes 5525 4425 0    60   ~ 0
+	6175 4350 6350 4350
+Text Notes 5525 4575 0    60   ~ 0
 Flyback diode (optional)
 $Comp
 L SMOL_components:D_SOT523 D1
 U 1 1 5B5FEE9D
-P 6025 4200
-F 0 "D1" H 6025 4300 50  0000 C CNN
-F 1 "D_SOT523" H 6025 4100 50  0000 C CNN
-F 2 "SMOL_footprints:SOT523_HandSoldering" H 6025 4200 50  0001 C CNN
-F 3 "" H 6025 4200 50  0001 C CNN
-	1    6025 4200
+P 6025 4350
+F 0 "D1" H 6025 4450 50  0000 C CNN
+F 1 "D_SOT523" H 6025 4250 50  0000 C CNN
+F 2 "SMOL_footprints:SOT523_HandSoldering" H 6025 4350 50  0001 C CNN
+F 3 "" H 6025 4350 50  0001 C CNN
+	1    6025 4350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -323,5 +320,63 @@ Wire Wire Line
 	9150 3700 9150 3600
 Connection ~ 9150 3700
 Wire Wire Line
-	8700 3600 9150 3600
+	8700 3600 8850 3600
+$Comp
+L SMOL_components:Conn_01x05 J1
+U 1 1 5BDBD722
+P 7750 4450
+F 0 "J1" V 7903 4162 50  0000 R CNN
+F 1 "Conn_01x05" V 7812 4162 50  0000 R CNN
+F 2 "SMOL_footprints:edgeconn" H 7750 4450 50  0001 C CNN
+F 3 "~" H 7750 4450 50  0001 C CNN
+	1    7750 4450
+	0    -1   -1   0   
+$EndComp
+Text Notes 7250 4575 0    50   ~ 0
+Programming interface (TPI) - card edge
+Wire Wire Line
+	8700 3400 8775 3400
+Connection ~ 8850 3600
+Wire Wire Line
+	8850 3600 9150 3600
+Wire Wire Line
+	8700 3700 8700 4075
+Wire Wire Line
+	7550 4250 7550 4000
+Wire Wire Line
+	7550 4000 8775 4000
+Wire Wire Line
+	8775 4000 8775 3400
+Wire Wire Line
+	7650 4250 7650 4075
+Wire Wire Line
+	7650 4075 6250 4075
+Wire Wire Line
+	7750 4250 7750 4075
+Wire Wire Line
+	7750 4075 8700 4075
+Wire Wire Line
+	6100 3300 6175 3300
+Wire Wire Line
+	6100 3800 6250 3800
+Wire Wire Line
+	6250 4075 6250 3800
+Connection ~ 6250 3800
+Wire Wire Line
+	6250 3800 6300 3800
+Wire Wire Line
+	7850 4250 7850 4150
+Wire Wire Line
+	7850 4150 6175 4150
+Wire Wire Line
+	6175 4150 6175 3300
+Connection ~ 6175 3300
+Wire Wire Line
+	6175 3300 6300 3300
+Wire Wire Line
+	7950 4250 7950 4150
+Wire Wire Line
+	7950 4150 8850 4150
+Wire Wire Line
+	8850 3600 8850 4150
 $EndSCHEMATC
