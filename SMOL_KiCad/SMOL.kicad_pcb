@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.1)-3")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.2)-1")
 
   (general
     (thickness 0.508)
@@ -382,6 +382,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SuperSOT-6.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMOL_footprints:SuperSOT-6 (layer F.Cu) (tedit 5BDC9303) (tstamp 5BC7C0AD)
@@ -416,7 +421,7 @@
       (net 2 /Anode))
     (pad 1 smd rect (at -1.3 -0.95 90) (size 1 0.7) (layers F.Cu F.Mask)
       (net 7 "Net-(U2-Pad1)"))
-    (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SuperSOT-6.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SuperSOT-6.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -443,7 +448,7 @@
       (net 2 /Anode))
     (pad 2 smd rect (at 1.1 0 270) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 9 "Net-(Q1-Pad1)"))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -470,7 +475,7 @@
       (net 1 /Cathode))
     (pad 2 smd rect (at 1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 4 "Net-(L1-Pad2)"))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -497,7 +502,7 @@
       (net 1 /Cathode))
     (pad 2 smd rect (at 1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 2 /Anode))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -524,7 +529,7 @@
       (net 2 /Anode))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 6 "Net-(R1-Pad2)"))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -551,7 +556,7 @@
       (net 3 /μC_Vcc))
     (pad 2 smd rect (at 1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 2 /Anode))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -578,7 +583,7 @@
       (net 3 /μC_Vcc))
     (pad 2 smd rect (at 1.099999 0 270) (size 1.2 0.9) (layers F.Cu F.Mask)
       (net 6 "Net-(R1-Pad2)"))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -612,9 +617,9 @@
       (net 2 /Anode))
     (pad 1 smd rect (at -0.5 0.745) (size 0.4 0.71) (layers F.Cu F.Mask)
       (net 9 "Net-(Q1-Pad1)"))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 0.7 0.7 0.6))
       (rotate (xyz 0 0 -90))
     )
   )
@@ -671,9 +676,9 @@
     (pad 2 smd rect (at 0.5 0.745) (size 0.4 0.71) (layers F.Cu F.Mask))
     (pad 3 smd rect (at 0 -0.745) (size 0.4 0.71) (layers F.Cu F.Mask)
       (net 1 /Cathode))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 0.7 0.7 0.6))
       (rotate (xyz 0 0 -90))
     )
   )
@@ -1012,7 +1017,7 @@
   )
 
   (module Symbols:OSHW-Symbol_6.7x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5BF0D88E)
-    (at 92.456 107.061)
+    (at 76.454 101.346)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
