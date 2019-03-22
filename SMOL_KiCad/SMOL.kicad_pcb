@@ -2,17 +2,17 @@
 
   (general
     (thickness 0.508)
-    (drawings 8)
+    (drawings 6)
     (tracks 133)
     (zones 0)
-    (modules 16)
+    (modules 18)
     (nets 10)
   )
 
   (page USLetter)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user hide)
@@ -47,12 +47,12 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.1 0.1)
-    (pad_drill 0)
+    (pad_size 1.4 1.4)
+    (pad_drill 1.4)
     (pad_to_mask_clearance 0.0508)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FEFF77F)
+    (visible_elements 7FFFF77F)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -127,6 +127,17 @@
     (via_drill 0.4064)
     (uvia_dia 0.3048)
     (uvia_drill 0.1016)
+  )
+
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5C945FD4) (tstamp 5C945FDE)
+    (at 105.029 112.141)
+    (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderWirePad_single_2mmDrill (at -0.635 3.81) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0.381 -6.731) (size 1.4 1.4) (drill 1.4) (layers *.Cu *.Mask))
   )
 
   (module SMOL_footprints:credits2-title (layer B.Cu) (tedit 5BE526AF) (tstamp 5BE5279D)
@@ -1022,8 +1033,17 @@
       (xy -4.639425 3.518309) (xy -4.711621 3.553449) (xy -4.791467 3.60512) (xy -4.882889 3.675701)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_circle (center 97.79 105.41) (end 98.425 105.41) (layer Edge.Cuts) (width 0.1016) (tstamp 5C945904))
-  (gr_circle (center 105.41 105.41) (end 106.045 105.41) (layer Edge.Cuts) (width 0.1016))
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5C945FA9) (tstamp 5C945F2A)
+    (at 94.234 110.363)
+    (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value SolderWirePad_single_2mmDrill (at -0.635 3.81) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 3.556 -4.953) (size 1.4 1.4) (drill 1.4) (layers *.Cu *.Mask))
+  )
+
   (gr_arc (start 101.6 101.6) (end 105.283 107.696) (angle -117.7) (layer Edge.Cuts) (width 0.1016) (tstamp 5C780E0E))
   (gr_line (start 97.917 95.504) (end 105.283 95.504) (angle 90) (layer Edge.Cuts) (width 0.1016) (tstamp 5C780CFF))
   (gr_line (start 97.917 107.696) (end 105.283 107.696) (angle 90) (layer Edge.Cuts) (width 0.1016))
