@@ -15,179 +15,182 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5BDCB323
+P 4050 2725
+F 0 "J1" H 4100 3042 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 4100 2951 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4050 2725 50  0001 C CNN
+F 3 "~" H 4050 2725 50  0001 C CNN
+	1    4050 2725
+	1    0    0    -1  
+$EndComp
+$Comp
 L Connector_Generic:Conn_01x05 J2
 U 1 1 5BDCB3F8
-P 5900 2925
-F 0 "J2" V 5773 2637 50  0000 R CNN
-F 1 "Conn_01x05" V 5864 2637 50  0000 R CNN
-F 2 "SMOL_footprints:edgeconn" H 5900 2925 50  0001 C CNN
-F 3 "~" H 5900 2925 50  0001 C CNN
-	1    5900 2925
+P 5850 2975
+F 0 "J2" V 5723 2687 50  0000 R CNN
+F 1 "Conn_01x05" V 5814 2687 50  0000 R CNN
+F 2 "SMOL_footprints:edgeconn" H 5850 2975 50  0001 C CNN
+F 3 "~" H 5850 2975 50  0001 C CNN
+	1    5850 2975
 	0    -1   1    0   
 $EndComp
 Text Notes 3250 1000 0    100  ~ 0
 attiny pin 6 (rst) - arduino pin 10\n    attiny pin 1 (data) - arduino pins 11+12\nattiny pin 3 (clk) - arduino pin 13\n
-Text Label 5700 2725 1    50   ~ 0
+Text Label 5650 2775 1    50   ~ 0
 att_reset
-Text Label 5800 2725 1    50   ~ 0
+Text Label 5750 2775 1    50   ~ 0
 pwr
-Text Label 5900 2725 1    50   ~ 0
+Text Label 5850 2775 1    50   ~ 0
 att_data
-Text Label 6000 2725 1    50   ~ 0
+Text Label 5950 2775 1    50   ~ 0
 gnd
-Text Label 6100 2725 1    50   ~ 0
+Text Label 6050 2775 1    50   ~ 0
 att_clk
 $Comp
 L Device:R R1
 U 1 1 5BDCB8DB
-P 6850 1550
-F 0 "R1" V 6775 1550 50  0000 C CNN
-F 1 "2k" V 6850 1550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1550 50  0001 C CNN
-F 3 "~" H 6850 1550 50  0001 C CNN
-	1    6850 1550
+P 6800 1600
+F 0 "R1" V 6725 1600 50  0000 C CNN
+F 1 "2k" V 6800 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 1600 50  0001 C CNN
+F 3 "~" H 6800 1600 50  0001 C CNN
+	1    6800 1600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5BDCBA74
-P 6850 1725
-F 0 "R2" V 6775 1725 50  0000 C CNN
-F 1 "2k" V 6850 1725 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1725 50  0001 C CNN
-F 3 "~" H 6850 1725 50  0001 C CNN
-	1    6850 1725
+P 6800 1775
+F 0 "R2" V 6725 1775 50  0000 C CNN
+F 1 "2k" V 6800 1775 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 1775 50  0001 C CNN
+F 3 "~" H 6800 1775 50  0001 C CNN
+	1    6800 1775
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5BDCBA9A
-P 6850 1900
-F 0 "R3" V 6775 1900 50  0000 C CNN
-F 1 "2k" V 6850 1900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1900 50  0001 C CNN
-F 3 "~" H 6850 1900 50  0001 C CNN
-	1    6850 1900
+P 6800 1950
+F 0 "R3" V 6725 1950 50  0000 C CNN
+F 1 "2k" V 6800 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 1950 50  0001 C CNN
+F 3 "~" H 6800 1950 50  0001 C CNN
+	1    6800 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5BDCBAC2
-P 6850 2075
-F 0 "R4" V 6775 2075 50  0000 C CNN
-F 1 "2k" V 6850 2075 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 2075 50  0001 C CNN
-F 3 "~" H 6850 2075 50  0001 C CNN
-	1    6850 2075
+P 6800 2125
+F 0 "R4" V 6725 2125 50  0000 C CNN
+F 1 "2k" V 6800 2125 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 2125 50  0001 C CNN
+F 3 "~" H 6800 2125 50  0001 C CNN
+	1    6800 2125
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 1550 5700 1550
+	6650 1600 5650 1600
 Wire Wire Line
-	5900 1725 5900 1900
+	5850 1775 5850 1950
 Wire Wire Line
-	6700 1900 5900 1900
+	6650 1950 5850 1950
 Wire Wire Line
-	6700 2075 6100 2075
+	6650 2125 6050 2125
 Wire Wire Line
-	5900 1725 6700 1725
-Connection ~ 5900 1900
+	5850 1775 6650 1775
+Connection ~ 5850 1950
 Wire Wire Line
-	5800 2350 7000 2350
+	5650 1600 5650 2775
 Wire Wire Line
-	5700 1550 5700 2725
+	5850 1950 5850 2775
 Wire Wire Line
-	5800 2350 5800 2725
-Wire Wire Line
-	5900 1900 5900 2725
-Wire Wire Line
-	6000 2225 6000 2725
-Wire Wire Line
-	6100 2075 6100 2725
-Text Label 7200 1550 0    50   ~ 0
+	6050 2125 6050 2775
+Text Label 7150 1600 0    50   ~ 0
 prog_reset
-Text Label 7200 1725 0    50   ~ 0
+Text Label 7150 1775 0    50   ~ 0
 prog_miso
-Text Label 7200 1900 0    50   ~ 0
+Text Label 7150 1950 0    50   ~ 0
 prog_mosi
-Text Label 7200 2075 0    50   ~ 0
+Text Label 7150 2125 0    50   ~ 0
 prog_clk
 Wire Wire Line
-	7200 1550 7000 1550
+	7150 1600 6950 1600
 Wire Wire Line
-	7000 1725 7200 1725
+	6950 1775 7150 1775
 Wire Wire Line
-	7000 1900 7200 1900
+	6950 1950 7150 1950
 Wire Wire Line
-	7200 2075 7000 2075
-Text Label 1900 2700 2    50   ~ 0
+	7150 2125 6950 2125
+Text Label 3850 2625 2    50   ~ 0
 prog_miso
-Text Label 3500 1500 2    50   ~ 0
-pwr
-Text Label 1900 2900 2    50   ~ 0
+Text Label 3850 2725 2    50   ~ 0
 prog_clk
-Text Label 1900 2600 2    50   ~ 0
+Text Label 3850 2825 2    50   ~ 0
 prog_reset
-Text Label 1900 2800 2    50   ~ 0
+Text Label 4350 2725 0    50   ~ 0
 prog_mosi
-Text Label 2850 3250 0    50   ~ 0
-gnd
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5BDCD3C8
-P 7025 2225
-F 0 "#PWR?" H 7025 1975 50  0001 C CNN
-F 1 "GNDREF" V 7030 2097 50  0000 R CNN
-F 2 "" H 7025 2225 50  0001 C CNN
-F 3 "" H 7025 2225 50  0001 C CNN
-	1    7025 2225
+P 7150 2275
+F 0 "#PWR?" H 7150 2025 50  0001 C CNN
+F 1 "GNDREF" V 7155 2147 50  0000 R CNN
+F 2 "" H 7150 2275 50  0001 C CNN
+F 3 "" H 7150 2275 50  0001 C CNN
+	1    7150 2275
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6000 2225 7025 2225
+Text Label 7150 2400 0    50   ~ 0
+prog_pwr
+Text Label 4350 2625 0    50   ~ 0
+prog_pwr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A1
-U 1 1 5CABB7A9
-P 2400 2200
-F 0 "A1" H 2400 1114 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 2400 1023 50  0000 C CNN
-F 2 "Modules:Arduino_Nano" H 2550 1250 50  0001 L CNN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2400 1200 50  0001 C CNN
-	1    2400 2200
+L Device:Jumper_NO_Small JP1
+U 1 1 5CAC15DE
+P 6800 2275
+F 0 "JP1" H 6800 2325 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6800 2369 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6800 2275 50  0001 C CNN
+F 3 "~" H 6800 2275 50  0001 C CNN
+	1    6800 2275
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J1
-U 1 1 5CABB9CB
-P 3700 1500
-F 0 "J1" H 3673 1523 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 3673 1432 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3700 1500 50  0001 C CNN
-F 3 "~" H 3700 1500 50  0001 C CNN
-	1    3700 1500
-	-1   0    0    -1  
+L Device:Jumper_NO_Small JP2
+U 1 1 5CAC169E
+P 6800 2400
+F 0 "JP2" H 6800 2450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6800 2494 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6800 2400 50  0001 C CNN
+F 3 "~" H 6800 2400 50  0001 C CNN
+	1    6800 2400
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 1200 2500 1100
+	7150 2275 6900 2275
 Wire Wire Line
-	2500 1100 3200 1100
+	6700 2275 5950 2275
 Wire Wire Line
-	3200 1100 3200 1400
+	5950 2275 5950 2775
 Wire Wire Line
-	3200 1400 3500 1400
+	7150 2400 6900 2400
 Wire Wire Line
-	2600 1200 3100 1200
+	5750 2400 6700 2400
 Wire Wire Line
-	3100 1200 3100 1600
-Wire Wire Line
-	3100 1600 3500 1600
-Wire Wire Line
-	2400 3200 2450 3200
-Wire Wire Line
-	2450 3200 2450 3250
-Wire Wire Line
-	2450 3250 2850 3250
-Connection ~ 2450 3200
-Wire Wire Line
-	2450 3200 2500 3200
+	5750 2400 5750 2775
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5CAC1FF6
+P 4350 2825
+F 0 "#PWR?" H 4350 2575 50  0001 C CNN
+F 1 "GNDREF" V 4355 2697 50  0000 R CNN
+F 2 "" H 4350 2825 50  0001 C CNN
+F 3 "" H 4350 2825 50  0001 C CNN
+	1    4350 2825
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
