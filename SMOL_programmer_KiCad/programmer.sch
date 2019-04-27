@@ -122,7 +122,7 @@ Wire Wire Line
 	7200 2075 7000 2075
 Text Label 1900 2700 2    50   ~ 0
 prog_miso
-Text Label 3500 1500 2    50   ~ 0
+Text Label 3100 1200 0    50   ~ 0
 pwr
 Text Label 1900 2900 2    50   ~ 0
 prog_clk
@@ -156,31 +156,8 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2400 1200 50
 	1    2400 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x03_Male J1
-U 1 1 5CABB9CB
-P 3700 1500
-F 0 "J1" H 3673 1523 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 3673 1432 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3700 1500 50  0001 C CNN
-F 3 "~" H 3700 1500 50  0001 C CNN
-	1    3700 1500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 1200 2500 1100
-Wire Wire Line
-	2500 1100 3200 1100
-Wire Wire Line
-	3200 1100 3200 1400
-Wire Wire Line
-	3200 1400 3500 1400
 Wire Wire Line
 	2600 1200 3100 1200
-Wire Wire Line
-	3100 1200 3100 1600
-Wire Wire Line
-	3100 1600 3500 1600
 Wire Wire Line
 	2400 3200 2450 3200
 Wire Wire Line
@@ -190,4 +167,6 @@ Wire Wire Line
 Connection ~ 2450 3200
 Wire Wire Line
 	2450 3200 2500 3200
+Text Label 7000 2350 0    50   ~ 0
+pwr
 $EndSCHEMATC
