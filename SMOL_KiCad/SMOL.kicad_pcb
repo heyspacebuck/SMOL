@@ -47,8 +47,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.4 1.4)
-    (pad_drill 1.4)
+    (pad_size 0.8 0.8)
+    (pad_drill 0.8)
     (pad_to_mask_clearance 0.0508)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -129,7 +129,7 @@
     (uvia_drill 0.1016)
   )
 
-  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5C945FD4) (tstamp 5C945FDE)
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5CC6083F) (tstamp 5C945FDE)
     (at 105.029 112.141)
     (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -137,7 +137,7 @@
     (fp_text value SolderWirePad_single_2mmDrill (at -0.635 3.81) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0.381 -6.731) (size 1.4 1.4) (drill 1.4) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0.381 -6.731) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
   )
 
   (module SMOL_footprints:credits2-title (layer B.Cu) (tedit 5BE526AF) (tstamp 5BE5279D)
@@ -1033,7 +1033,7 @@
       (xy -4.639425 3.518309) (xy -4.711621 3.553449) (xy -4.791467 3.60512) (xy -4.882889 3.675701)) (layer B.SilkS) (width 0.01))
   )
 
-  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5C945FA9) (tstamp 5C945F2A)
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5CC6082B) (tstamp 5C945F2A)
     (at 94.234 110.363)
     (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1041,7 +1041,7 @@
     (fp_text value SolderWirePad_single_2mmDrill (at -0.635 3.81) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 3.556 -4.953) (size 1.4 1.4) (drill 1.4) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 3.556 -4.953) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
   )
 
   (gr_arc (start 101.6 101.6) (end 105.283 107.696) (angle -117.7) (layer Edge.Cuts) (width 0.1016) (tstamp 5C780E0E))
