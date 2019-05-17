@@ -1,9 +1,9 @@
 # Tiny Programming Interface (TPI) programmers for SMOL
 
-![](img/revs/r6c_p2_t.png) ![](img/revs/r6c_p2_b.png)
+![](img/revs/r6c_p2_t.png) ![](img/revs/r6c_p2_b.png)<br>
 This design works with USBasp or a breadboard if you are using [this programming approach](http://www.technoblogy.com/show?1YQY).
 
-![](img/revs/r6c_p_t.png) ![](img/revs/r6c_p_b.png)
+![](img/revs/r6c_p_t.png) ![](img/revs/r6c_p_b.png)<br>
 This design works with the Arduino Nano (or breadboard) if you are using [this programming approach](http://junkplusarduino.blogspot.com/p/attiny10-resources.html).
 
 The ATTiny10 at the heart of the SMOL can't be programmed like other ATTiny ICs. Instead of the normal 6-wire SPI (Serial Programming Interface) protocol, the ATTiny4/5/9/10 family use the 5-wire TPI (Tiny Programming Interface) protocol. Tutorials on working with TPI are relatively scarce. If you have a [Fischl USBasp](https://www.fischl.de/usbasp/) (or a knockoff that still supports low-clock-speed programming), you can write and upload your AVR program within the Arduino IDE by [following this landmark tutorial by Johnson Davies](http://www.technoblogy.com/show?1YQY). If you don't have USBasp, you can still upload compiled programs using this [very clever, very janky Arduino sketch](http://junkplusarduino.blogspot.com/p/attiny10-resources.html). Atmel Studio *should* work as an IDE but I haven't had any luck yet—contact me if you figure it out!
