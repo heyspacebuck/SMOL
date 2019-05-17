@@ -53,7 +53,7 @@ int main(void) {
 		OCR0A_idle();
 		
 		// If counter above our time limit (25 minutes), enter Active Mode for five-ish minutes (how can I make this more precise?)
-		if (idlecounter >= 6) { // This used to be 1500
+		if (idlecounter >= 1500) { // Shorten this for debug testing
 			SetActiveMode();
 			activecounter1 = 0;
 			activecounter2 = 0;
@@ -72,7 +72,6 @@ int main(void) {
 					activecounter1++;
 					activecounter2 = 0;
 				}
-				
 			}
 			
 			// Once Active Mode has run for 5 minutes, return to idling for another 25 minutes

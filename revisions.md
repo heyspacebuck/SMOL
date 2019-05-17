@@ -1,9 +1,16 @@
 # SMOL Revision history
 
+## Revisions 6b and 6c
+![](img/revs/r6b_t.png) ![](img/revs/r6b_b.png)
+
+![](img/revs/r6c_t.png) ![](img/revs/r6c_b.png)
+
+I called these "6b" and "6c" instead of "7" and "8" because they're lesser revisions. The component layout is the same as revision 6, but on 6b I changed the routing and board outline, and on 6c I changed the hole size and modified the [programmers](programmer.md).
+
 ## Revision 6
 ![](img/revs/r6_t.png) ![](img/revs/r6_b.png)
 
-I'm super happy with using and programming this version, but it *does* look like a skull. The form factor is not appealing enough.
+I was super happy with using and programming this version, but it *does* look like a skull. The form factor is not cute enough!
 
 ## Revision 5
 ![](img/revs/r5_t.png) ![](img/revs/r5_b.png)
