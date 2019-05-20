@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 0.508)
@@ -12,7 +12,7 @@
   (page USLetter)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user hide)
@@ -31,8 +31,6 @@
     (zone_clearance 0.3556)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.1016)
-    (edge_width 0.1016)
     (via_size 0.6096)
     (via_drill 0.4064)
     (via_min_size 0.4)
@@ -42,6 +40,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.1016)
+    (segment_width 0.1016)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -52,7 +52,7 @@
     (pad_to_mask_clearance 0.0508)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF77F)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -129,20 +129,20 @@
     (uvia_drill 0.1016)
   )
 
-  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5CC6083F) (tstamp 5C945FDE)
-    (at 105.029 112.141)
-    (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5CE1FA71) (tstamp 5CE20EA5)
+    (at 105.41 105.41)
+    (fp_text reference HOLE2 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SolderWirePad_single_2mmDrill (at -0.635 3.81) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0.381 -6.731) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
   )
 
   (module SMOL_footprints:credits2-title (layer B.Cu) (tedit 5BE526AF) (tstamp 5BE5279D)
     (at 101.6 101.727 100)
-    (fp_text reference G*** (at -14.859 10.795 100) (layer B.SilkS) hide
+    (fp_text reference GFX2 (at -14.859 10.795 100) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_text value credits2-title (at -14.224 8.509001 100) (layer B.SilkS) hide
@@ -732,7 +732,7 @@
 
   (module SMOL_footprints:credits2-name (layer B.Cu) (tedit 5BE5250D) (tstamp 5BE5270A)
     (at 101.6 101.6 258)
-    (fp_text reference G*** (at -14.859 10.795 258) (layer B.SilkS) hide
+    (fp_text reference GFX1 (at -14.859 10.795 258) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_text value credits2-name (at -14.224 8.509 258) (layer B.SilkS) hide
@@ -1033,15 +1033,15 @@
       (xy -4.639425 3.518309) (xy -4.711621 3.553449) (xy -4.791467 3.60512) (xy -4.882889 3.675701)) (layer B.SilkS) (width 0.01))
   )
 
-  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5CC6082B) (tstamp 5C945F2A)
-    (at 94.234 110.363)
-    (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
+  (module Wire_Pads:SolderWirePad_single_2mmDrill (layer F.Cu) (tedit 5CE1FAEA) (tstamp 5C945F2A)
+    (at 97.79 105.41)
+    (fp_text reference HOLE1 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SolderWirePad_single_2mmDrill (at -0.635 3.81) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 3.556 -4.953) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
   )
 
   (gr_arc (start 101.6 101.6) (end 105.283 107.696) (angle -117.7) (layer Edge.Cuts) (width 0.1016) (tstamp 5C780E0E))

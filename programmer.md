@@ -16,6 +16,9 @@ I'm using the classic [spring-loaded pogo pin](https://www.adafruit.com/product/
 
 The programmer has space for seven pogo pins: five signals and two alignment pins. The alignment pins should slide nicely into the 0.8mm diameter non-plated holes on SMOL, thereby forcing the five signal pins to accurately align themselves. The seven pogo pins are soldered into the programmer; be very careful on this step!
 
+![](img/pogopins.jpg)<br>
+(this is an earlier version with only five pogo pins; later on I added an extra two that help align the board and programmer)
+
 ## Other attempts at SMOL programmers
 
 My first programmers were wires soldered to bare pads. After that I tried programmers with mating fingers slid against the SMOL. This worked alright, but requires a lot of force to keep the programmer pressed against the SMOL, which started to take a toll on my poor fingertips:

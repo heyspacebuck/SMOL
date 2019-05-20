@@ -47,8 +47,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 2.999999 2.999999)
-    (pad_drill 2.999999)
+    (pad_size 1.524 1.524)
+    (pad_drill 1)
     (pad_to_mask_clearance 0.0508)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -132,7 +132,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference HOLE4 (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -151,7 +151,7 @@
     (descr "6 pins through hole IDC header")
     (tags "IDC header socket VASCH AVR ISP")
     (path /5CD0E261)
-    (fp_text reference CON1 (at 3 -7.5) (layer F.SilkS)
+    (fp_text reference CON1 (at 3 -7.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value AVR-TPI-6 (at 3 5) (layer F.Fab)
@@ -198,7 +198,7 @@
     (descr "10 pins through hole IDC header")
     (tags "IDC header socket VASCH")
     (path /5CD0E990)
-    (fp_text reference CON2 (at 5.08 -7.62 90) (layer F.SilkS)
+    (fp_text reference CON2 (at 5.08 -7.62 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value AVR-ISP-10 (at 5.08 5.223 90) (layer F.Fab)
@@ -248,15 +248,15 @@
       (net 4 GNDREF))
   )
 
-  (module Wire_Pads:SolderWirePad_single_1mmDrill (layer F.Cu) (tedit 5CC60A1E) (tstamp 5CC60BEB)
-    (at 29.845 14.351 90)
-    (fp_text reference REF** (at 0 -3.81 90) (layer F.SilkS) hide
+  (module Wire_Pads:SolderWirePad_single_1mmDrill (layer F.Cu) (tedit 5CE1FE87) (tstamp 5CC60BEB)
+    (at 31.75 14.097 90)
+    (fp_text reference HOLE6 (at 0 -3.81 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SolderWirePad_single_1mmDrill (at -1.905 3.175 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole oval (at 0.254 1.905 90) (size 1.524 1.524) (drill 1 (offset 0.2032 0)) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at 0 0 90) (size 1.524 1.524) (drill 1 (offset 0.2032 0)) (layers *.Cu *.Mask))
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5CABC135) (tstamp 5CAC1F8E)
@@ -264,7 +264,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference HOLE2 (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -283,7 +283,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference HOLE3 (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -302,7 +302,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference HOLE1 (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -351,15 +351,15 @@
     )
   )
 
-  (module Wire_Pads:SolderWirePad_single_1mmDrill (layer F.Cu) (tedit 5CC60A1E) (tstamp 5CC608EC)
-    (at 22.225 14.351 90)
-    (fp_text reference REF** (at 0 -3.81 90) (layer F.SilkS) hide
+  (module Wire_Pads:SolderWirePad_single_1mmDrill (layer F.Cu) (tedit 5CE1FE52) (tstamp 5CC608EC)
+    (at 24.13 14.097 90)
+    (fp_text reference HOLE5 (at 0 -3.81 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SolderWirePad_single_1mmDrill (at -1.905 3.175 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole oval (at 0.254 1.905 90) (size 1.524 1.524) (drill 1 (offset 0.2032 0)) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at 0 0 90) (size 1.524 1.524) (drill 1 (offset 0.2032 0)) (layers *.Cu *.Mask))
   )
 
   (gr_text CLK (at 31.75 28.575) (layer B.SilkS) (tstamp 5CD112AD)
