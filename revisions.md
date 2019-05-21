@@ -1,11 +1,9 @@
 # SMOL Revision history
 
-## Revisions 6b and 6c
-![](img/revs/r6b_t.png) ![](img/revs/r6b_b.png)
-
+## Revision 6b
 ![](img/revs/r6c_t.png) ![](img/revs/r6c_b.png)
 
-I called these "6b" and "6c" instead of "7" and "8" because they're lesser revisions. The component layout is the same as revision 6, but on 6b I changed the routing and board outline, and on 6c I changed the hole size and modified the [programmers](programmer.md).
+I called this "6b" instead of "7" because it's made up of lesser revisions. The component layout is the same as revision 6, but on 6b I changed the routing and board outline, as well as modified the [programmers](programmer.md).
 
 ## Revision 6
 ![](img/revs/r6_t.png) ![](img/revs/r6_b.png)

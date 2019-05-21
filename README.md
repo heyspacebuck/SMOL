@@ -2,7 +2,7 @@
 
 ## **S**lot-in **M**anipulator of **O**utput **L**evels
 
-## (Revision 6c)
+## (Revision 6b)
 
 ![](img/glam.jpg)
 
