@@ -1,9 +1,14 @@
 # SMOL Revision history
 
+## Revision 6b
+![](img/revs/r6c_t.png) ![](img/revs/r6c_b.png)
+
+This is the final hardware revision. I called it "6b" instead of "7" because it's made up of lesser revisions--the component layout is the same as revision 6, but I changed the routing and board outline. In addition I introduced some [programmers](programmer.md) that work more reliably.
+
 ## Revision 6
 ![](img/revs/r6_t.png) ![](img/revs/r6_b.png)
 
-I'm super happy with using and programming this version, but it *does* look like a skull. The form factor is not appealing enough.
+I was super happy with using and programming this version, but it *does* look like a skull. The form factor is not cute enough!
 
 ## Revision 5
 ![](img/revs/r5_t.png) ![](img/revs/r5_b.png)

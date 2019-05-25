@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SMOL_footprints)(type KiCad)(uri "E:/KiCad Projects/SMOL/SMOL_KiCad/SMOL_footprints.pretty")(options "")(descr ""))
+)
