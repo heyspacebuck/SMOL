@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 17)
     (tracks 34)
     (zones 0)
     (modules 12)
@@ -480,6 +480,12 @@
     (pad 1 thru_hole oval (at 0 0 90) (size 1.524 1.524) (drill 1 (offset 0.2032 0)) (layers *.Cu *.Mask))
   )
 
+  (gr_text github.com/heyspacebuck/SMOL (at 30.099 56.261 90) (layer F.SilkS)
+    (effects (font (size 0.7112 0.7112) (thickness 0.1524)))
+  )
+  (gr_text "SMOL Programmer\nfor Arduino Nano" (at 26.924 56.642 90) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+  )
   (gr_text CLK (at 34.163 59.69) (layer F.SilkS) (tstamp 5CC404A2)
     (effects (font (size 0.762 0.762) (thickness 0.15875)) (justify right))
   )

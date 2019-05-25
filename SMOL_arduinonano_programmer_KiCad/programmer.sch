@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:programmer-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,7 +42,7 @@ U 1 1 5BDCB8DB
 P 6850 1550
 F 0 "R1" V 6775 1550 50  0000 C CNN
 F 1 "2k" V 6850 1550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1550 50  0001 C CNN
 F 3 "~" H 6850 1550 50  0001 C CNN
 	1    6850 1550
 	0    1    1    0   
@@ -54,7 +53,7 @@ U 1 1 5BDCBA74
 P 6850 1725
 F 0 "R2" V 6775 1725 50  0000 C CNN
 F 1 "2k" V 6850 1725 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1725 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1725 50  0001 C CNN
 F 3 "~" H 6850 1725 50  0001 C CNN
 	1    6850 1725
 	0    1    1    0   
@@ -65,7 +64,7 @@ U 1 1 5BDCBA9A
 P 6850 1900
 F 0 "R3" V 6775 1900 50  0000 C CNN
 F 1 "2k" V 6850 1900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 1900 50  0001 C CNN
 F 3 "~" H 6850 1900 50  0001 C CNN
 	1    6850 1900
 	0    1    1    0   
@@ -76,7 +75,7 @@ U 1 1 5BDCBAC2
 P 6850 2075
 F 0 "R4" V 6775 2075 50  0000 C CNN
 F 1 "2k" V 6850 2075 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 2075 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6780 2075 50  0001 C CNN
 F 3 "~" H 6850 2075 50  0001 C CNN
 	1    6850 2075
 	0    1    1    0   
@@ -151,7 +150,7 @@ U 1 1 5CABB7A9
 P 2400 2200
 F 0 "A1" H 2400 1114 50  0000 C CNN
 F 1 "Arduino_Nano_v3.x" H 2400 1023 50  0000 C CNN
-F 2 "Modules:Arduino_Nano" H 2550 1250 50  0001 L CNN
+F 2 "Module:Arduino_Nano" H 2550 1250 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2400 1200 50  0001 C CNN
 	1    2400 2200
 	1    0    0    -1  

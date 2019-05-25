@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:programmer-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -24,8 +25,6 @@ F 3 "~" H 5925 3750 50  0001 C CNN
 	1    5925 3750
 	0    -1   1    0   
 $EndComp
-Text Notes 3250 1000 0    100  ~ 0
-attiny pin 6 (rst) - arduino pin 10\n    attiny pin 1 (data) - arduino pins 11+12\nattiny pin 3 (clk) - arduino pin 13\n
 Text Label 5725 3550 1    50   ~ 0
 att_reset
 Text Label 5825 3550 1    50   ~ 0
@@ -36,103 +35,90 @@ Text Label 6025 3550 1    50   ~ 0
 gnd
 Text Label 6125 3550 1    50   ~ 0
 att_clk
-Wire Wire Line
-	6025 3050 6025 3550
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5BDCD3C8
-P 6475 3050
-F 0 "#PWR?" H 6475 2800 50  0001 C CNN
-F 1 "GNDREF" V 6480 2922 50  0000 R CNN
-F 2 "" H 6475 3050 50  0001 C CNN
-F 3 "" H 6475 3050 50  0001 C CNN
-	1    6475 3050
+P 6025 3900
+F 0 "#PWR?" H 6025 3650 50  0001 C CNN
+F 1 "GNDREF" V 6030 3772 50  0000 R CNN
+F 2 "" H 6025 3900 50  0001 C CNN
+F 3 "" H 6025 3900 50  0001 C CNN
+	1    6025 3900
 	1    0    0    -1  
+$EndComp
+Connection ~ 6025 3550
+Wire Wire Line
+	6025 3550 6025 3900
+$Comp
+L Connector:AVR-ISP-10 J1
+U 1 1 5CE8A843
+P 6900 1700
+F 0 "J1" H 6620 1796 50  0000 R CNN
+F 1 "AVR-ISP-10" H 6620 1705 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" V 6650 1750 50  0001 C CNN
+F 3 " ~" H 5625 1150 50  0001 C CNN
+	1    6900 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
-L atmel:AVR-TPI-6 CON1
-U 1 1 5CD0E261
-P 7025 2850
-F 0 "CON1" H 7019 3215 50  0000 C CNN
-F 1 "AVR-TPI-6" H 7019 3124 50  0000 C CNN
-F 2 "Connectors:IDC_Header_Straight_6pins" V 6580 2885 50  0001 C CNN
-F 3 "" H 7025 2850 50  0001 C CNN
-	1    7025 2850
-	1    0    0    -1  
+L Connector:AVR-ISP-6 J3
+U 1 1 5CE8BE6D
+P 6900 2800
+F 0 "J3" H 6620 2896 50  0000 R CNN
+F 1 "AVR-ISP-6" H 6620 2805 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 6650 2850 50  0001 C CNN
+F 3 " ~" H 5625 2250 50  0001 C CNN
+	1    6900 2800
+	-1   0    0    -1  
 $EndComp
-$Comp
-L atmel:AVR-ISP-10 CON2
-U 1 1 5CD0E990
-P 7100 2125
-F 0 "CON2" H 6959 2580 50  0000 C CNN
-F 1 "AVR-ISP-10" H 6959 2489 50  0000 C CNN
-F 2 "Connectors:IDC_Header_Straight_10pins" V 6350 2175 50  0001 C CNN
-F 3 "" H 7100 2125 50  0001 C CNN
-	1    7100 2125
-	1    0    0    -1  
-$EndComp
+NoConn ~ 6500 2600
+NoConn ~ 6500 1500
 Wire Wire Line
-	7150 3050 7150 2950
+	6500 2700 5925 2700
+Connection ~ 5925 2700
 Wire Wire Line
-	6125 2850 6125 3550
+	5925 2700 5925 3550
 Wire Wire Line
-	6125 2850 6900 2850
+	6500 2800 6125 2800
+Connection ~ 6125 2800
 Wire Wire Line
-	5725 2950 6900 2950
+	6125 2800 6125 3550
 Wire Wire Line
-	5725 2950 5725 3550
+	6500 2900 5725 2900
+Connection ~ 5725 2900
 Wire Wire Line
-	5925 2750 6900 2750
+	5725 2900 5725 3550
 Wire Wire Line
-	5925 2750 5925 3550
+	7000 3200 6025 3200
+Connection ~ 6025 3200
 Wire Wire Line
-	6025 3050 6475 3050
-Connection ~ 6475 3050
+	6025 3200 6025 3550
 Wire Wire Line
-	6475 3050 7150 3050
+	7000 2300 5825 2300
+Connection ~ 5825 2300
 Wire Wire Line
-	7150 2750 7150 2650
+	5825 2300 5825 3550
 Wire Wire Line
-	7150 2650 5825 2650
+	5925 1600 6500 1600
 Wire Wire Line
-	5825 2650 5825 3550
-NoConn ~ 7150 2850
-Connection ~ 6125 2850
+	5925 1600 5925 2700
 Wire Wire Line
-	7150 2325 7150 2425
+	6525 1700 6500 1700
 Wire Wire Line
-	7150 2025 7150 2125
+	6125 1700 6125 2800
+Connection ~ 6500 1700
 Wire Wire Line
-	7150 2225 7150 2125
-Connection ~ 7150 2125
+	6500 1700 6125 1700
 Wire Wire Line
-	7150 2225 7150 2325
-Connection ~ 7150 2225
-Connection ~ 7150 2325
+	6500 1800 5725 1800
 Wire Wire Line
-	7150 1925 7150 1825
+	5725 1800 5725 2900
 Wire Wire Line
-	7150 1825 5825 1825
+	5825 1200 7000 1200
 Wire Wire Line
-	5825 1825 5825 2650
-Connection ~ 5825 2650
+	5825 1200 5825 2300
 Wire Wire Line
-	6900 2125 5725 2125
+	7000 2100 6025 2100
 Wire Wire Line
-	5725 2125 5725 2950
-Connection ~ 5725 2950
-Wire Wire Line
-	6900 2325 5925 2325
-Wire Wire Line
-	5925 2325 5925 2750
-Connection ~ 5925 2750
-Wire Wire Line
-	6900 2225 6125 2225
-Wire Wire Line
-	6125 2225 6125 2850
-Wire Wire Line
-	7150 2425 6025 2425
-Wire Wire Line
-	6025 2425 6025 3050
-Connection ~ 6025 3050
+	6025 2100 6025 3200
 $EndSCHEMATC
