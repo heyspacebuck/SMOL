@@ -19,7 +19,7 @@ If you want to contribute, please do! This thing is here for everyone to experim
 ![](img/glam2.jpg)
 
 ## Programming the SMOL
-That card-edge connector on the picture above is the [programming interface](programmer.md). Designing this part has been tougher than designing the actual SMOL! But once you get it working, you have the ATTiny10's entire kilobyte of program memory at your disposal. I suggest looking at the [example programs](examples/readme.md)
+That card-edge connector on the picture above is the [programming interface](programmer.md). Designing this part has been tougher than designing the actual SMOL! But once you get it working, you have the ATTiny10's entire kilobyte of program memory at your disposal. I suggest looking at the [example programs](Code%20examples/readme.md)
 
 ## Schematic
 ![](img/schem.png)
