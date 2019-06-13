@@ -1,6 +1,6 @@
 # Example AVR programs
 
-I'm working on this section! The programs are either buggy or absent altogether.
+I'm working on this section! The documentation is either flawed or absent altogether.
 
 ## 1. LED PWM pulse
 
