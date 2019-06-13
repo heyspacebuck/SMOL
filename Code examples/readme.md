@@ -12,10 +12,10 @@ The PWM rate in the previous example is 312.5 Hz. The coils of a motor would soa
 
 ## 3. Pseudorandom number generator
 
-The ATTiny10 and ATTiny5 have an ADC which we can connect to pin 3 (which on SMOL isn't connected to anything). I'm hoping that, by reading the least significant bits of the 8-bit analog reading, we'd get a fairly random number from environmental noise.
+The ATTiny10 and ATTiny5 have an ADC which we can connect to PB0 (Pin 1, which on SMOL isn't connected to anything). By reading the least significant bit of the 8-bit analog reading, we get a fairly random result from environmental noise! Right now I'm just using this to set the motor on or off at one-second intervals.
 
 ## 4. Morse code "I Love You"
 
-"If I had a little telegraph tapping in my brain / It would tap out Morse code 'I Love You'" --Devo, "The Words Get Stuck In My Throat" (Okay, so it's a cover of a song from "War of the Gargantuas" but I only know it because of Booji Boy)
+"If I had a little telegraph tapping in my brain / It would tap out Morse code 'I Love You'" --Devo, "The Words Get Stuck In My Throat" (Okay, so it's a cover of a song from _War of the Gargantuas_ but I only know it because of Booji Boy)
 
-I want to make this easier to customize (i.e. put in any Morse code message) but I haven't figured out how to fit it in the given program memory.
+The Morse alphabet (A-Z, no numbers or punctuation yet) is included in `MorseAlphabet.cpp`. Simply change the functions called in the main .cpp file and you could spell out whatever you want!
