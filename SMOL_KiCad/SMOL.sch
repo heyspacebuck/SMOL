@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SMOL-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -307,10 +307,7 @@ Connection ~ 9800 4000
 Wire Wire Line
 	9800 4000 9800 4150
 Wire Wire Line
-	9150 3700 9500 3700
-Wire Wire Line
 	9150 3700 9150 3600
-Connection ~ 9150 3700
 Wire Wire Line
 	8700 3600 8850 3600
 $Comp
@@ -379,4 +376,20 @@ Wire Wire Line
 	2525 3900 1075 3900
 Wire Wire Line
 	1075 3900 1075 3750
+$Comp
+L SMOL_components:R R4
+U 1 1 5D0B7342
+P 9325 3700
+F 0 "R4" H 9325 3775 50  0000 C CNN
+F 1 "1kΩ" H 9400 3825 50  0000 R BNN
+F 2 "SMOL_footprints:0603_HandSoldering" H 9325 3630 50  0001 C CNN
+F 3 "" V 9325 3700 50  0001 C CNN
+	1    9325 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9175 3700 9150 3700
+Connection ~ 9150 3700
+Wire Wire Line
+	9475 3700 9500 3700
 $EndSCHEMATC
