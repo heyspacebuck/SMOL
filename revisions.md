@@ -1,9 +1,14 @@
 # SMOL Revision history
 
+## Revision 7
+![](img/revs/r7_t.png) ![](img/revs/r7_b.png)
+
+After thinking I'd finalized the hardware, I began running into weird MOSFET behavior. A helpful fur pointed out that I needed a small resistor between the MOSFET gate and microcontroller. So, here we are, final revision take 2. The [programmers](programmer.md) are the same as revision 6b.
+
 ## Revision 6b
 ![](img/revs/r6c_t.png) ![](img/revs/r6c_b.png)
 
-This is the final hardware revision. I called it "6b" instead of "7" because it's made up of lesser revisions--the component layout is the same as revision 6, but I changed the routing and board outline. In addition I introduced some [programmers](programmer.md) that work more reliably.
+This was intended to be the final hardware revision. I called it "6b" instead of "7" because it's made up of lesser revisions--the component layout is the same as revision 6, but I changed the routing and board outline. In addition I introduced some [programmers](programmer.md) that work more reliably.
 
 ## Revision 6
 ![](img/revs/r6_t.png) ![](img/revs/r6_b.png)
