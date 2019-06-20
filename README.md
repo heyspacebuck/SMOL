@@ -32,8 +32,8 @@ That card-edge connector on the picture above is the [programming interface](pro
 | | Printed circuit board | JLCPCB | $0.125 | See the /gerbs/ folder |
 | R1 | 1 MΩ resistor, SMD 0603   | [Digikey](https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1004FP500/MCT0603-1.00M-CFCT-ND/2607877) | $0.180 | Abbreviated to "1" on the silkscreen. |
 | R2 | 180 kΩ resistor, SMD 0603 | [Digikey](https://www.digikey.com/product-detail/en/yageo/RC0603FR-07180KL/311-180KHRCT-ND/729942) | $0.015 | Abbreviated to "2" on the silkscreen. |
-| R3 | 20 kΩ resistor, SMD 0603   | [Digikey](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF2002V/P20.0KHCT-ND/198237) | $0.100 | Abbreviated to "3" on the silkscreen. |
-| R4 | | []() | $ | Abbreviated to "4" on the silkscreen. |
+| R3 | 20 kΩ resistor, SMD 0603  | [Digikey](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF2002V/P20.0KHCT-ND/198237) | $0.100 | Abbreviated to "3" on the silkscreen. |
+| R4 | 200 Ω resistor, SMD 0603  | [Digikey](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF2000V/P200HCT-ND/198240) | $0.100 | Abbreviated to "4" on the silkscreen. |
 | C1, C2 | 10 μF capacitor, SMD 0603 | [Digikey](https://www.digikey.com/product-detail/en/murata-electronics-north-america/ZRB18AR61C106ME01L/490-10990-1-ND/5321191) | $0.365 | Both are abbreviated to "C" on the silkscreen. |
 | L1 | 4.7 μH inductor, SMD 0603 | [Digikey](https://www.digikey.com/product-detail/en/tdk-corporation/MLF1608A4R7KTA00/445-1021-1-ND/504419) | $0.200 | I should probably use one that's rated to more than 30 mA. Abbreviated to "L" on the silkscreen. |
 | Q1 | N-channel MOSFET, SMD SOT-523 | [Digikey](https://www.digikey.com/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232) | $0.360 | [Datasheet](https://www.diodes.com/assets/Datasheets/ds31783.pdf). Abbreviated to "Q" on the silkscreen. |
